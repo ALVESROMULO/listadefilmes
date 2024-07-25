@@ -1,6 +1,6 @@
 
 const lista_de_personagens = document.querySelector("#lista_de_personagens");
-
+const inicio = document.querySelector("#Inicio")
 
 async function buscarDados() {
   try {
@@ -22,6 +22,9 @@ async function buscarDados() {
 
 
 buscarDados();
+
+
+inicio.addEventListener("click", buscarDados)
 
 
 const formulario = document.querySelector("#formulario");
