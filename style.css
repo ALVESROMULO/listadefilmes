@@ -1,0 +1,92 @@
+/* Estilos gerais para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Estilo para o título principal */
+  h1 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  /* Estilo para o formulário de pesquisa */
+  #formulario {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  /* Estilo para o campo de pesquisa */
+  #pesquisa {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 120px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para o botão de envio */
+  input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para o contêiner de filmes */
+  #lista_de_personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilo para cada item de filme */
+  #lista_de_personagens div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+    background-color: #fff;
+}
+
+#lista_de_personagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  #lista_de_personagens div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  img {
+    border-radius: 5px;
+  }
+  #formulario {
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
